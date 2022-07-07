@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": "ethereum",
+            "code": "ETH",
+            "name": "Ethereum"
+        },
+        {
+            "id": "bitcoin",
+            "code": "BTC",
+            "name": "Bitcoin"
+        },
+        {
+            "id": "smooth_love_potion",
+            "code": "SLP",
+            "name": "Smooth Love Potion"
+        },
+        {
+            "id": "axs",
+            "code": "AXS",
+            "name": "Axie Infinity Shard"
+        }
+    ]
+}
