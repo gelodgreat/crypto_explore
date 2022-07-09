@@ -5,4 +5,6 @@ export interface AppContext {
   setBUSDInput: Dispatch<SetStateAction<string>>;
   nepInput: string;
   setNepInput: Dispatch<SetStateAction<string>>;
+  openConnectModal: boolean;
+  setOpenConnectModal: Dispatch<SetStateAction<boolean>>;
 }
