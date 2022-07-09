@@ -1,10 +1,10 @@
 import { Fragment, useRef, useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { ExclamationIcon } from '@heroicons/react/outline';
-import { ModalProps } from './Modal.props';
+import { WalletDetailsModalProps } from './WalletDetailsModal.props';
 import React from 'react';
 
-const Modal = (props: ModalProps) => {
+const WalletDetailsModal = (props: WalletDetailsModalProps) => {
   const { open, openModal, leftBtnAction, leftBtnText, rightBtnAction, rightBtnText, title, description } = props;
   const cancelButtonRef = useRef(null);
 
@@ -73,4 +73,4 @@ const Modal = (props: ModalProps) => {
     </Transition.Root>
   );
 };
-export default React.memo(Modal);
+export default React.memo(WalletDetailsModal);

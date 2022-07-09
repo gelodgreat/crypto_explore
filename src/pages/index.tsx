@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from 'components/base';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import HomeScreen from './home/Home.container';
+import Navbar from 'components/base/Navbar/Navbar';
 
 const Home: NextPage = () => {
   return (

@@ -9,7 +9,16 @@ const HomeScreen = (props: HomeProps) => {
   console.log(value);
   return (
     <div>
-      <Modal open={value?.openConnectModal} openModal={value?.openModal} leftBtnAction={() => {}} leftBtnText='Connect' rightBtnAction={() => {}} rightBtnText='Cancel' />
+      <Modal
+        title='Wallet Details'
+        description='Wallet not connected, Please click the "Connect"'
+        open={value?.openConnectModal}
+        openModal={value?.openModal}
+        leftBtnAction={() => {}}
+        leftBtnText='Connect'
+        rightBtnAction={() => {}}
+        rightBtnText='Cancel'
+      />
       <ConverterScreen />
     </div>
   );

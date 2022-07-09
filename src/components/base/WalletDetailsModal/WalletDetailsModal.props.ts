@@ -1,12 +1,12 @@
 import { Dispatch, SetStateAction } from 'react';
 
-export interface ModalProps {
+export interface WalletDetailsModalProps {
   open: boolean;
+  title: string;
   openModal: () => void;
   leftBtnText?: string;
   leftBtnAction?: () => void;
   rightBtnText?: string;
   rightBtnAction?: () => void;
-  title: string;
   description?: string;
 }
