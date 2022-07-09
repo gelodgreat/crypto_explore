@@ -6,10 +6,10 @@ import { HomeProps } from './Home.props';
 
 const HomeScreen = (props: HomeProps) => {
   const value = useContext(AppContext);
-  console.log({ value });
+  console.log(value);
   return (
     <div>
-      <Modal open={value?.openConnectModal} setModalOpen={value?.setOpenConnectModal} />
+      <Modal open={value?.openConnectModal} openModal={value?.openModal} leftBtnAction={() => {}} leftBtnText='Connect' rightBtnAction={() => {}} rightBtnText='Cancel' />
       <ConverterScreen />
     </div>
   );

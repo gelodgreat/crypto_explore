@@ -6,5 +6,6 @@ export interface AppContext {
   nepInput: string;
   setNepInput: Dispatch<SetStateAction<string>>;
   openConnectModal: boolean;
+  openModal: () => void;
   setOpenConnectModal: Dispatch<SetStateAction<boolean>>;
 }

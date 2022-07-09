@@ -2,7 +2,7 @@ import { Dispatch, SetStateAction } from 'react';
 
 export interface ModalProps {
   open: boolean;
-  setModalOpen: Dispatch<SetStateAction<boolean>>;
+  openModal: () => void;
   leftBtnText?: string;
   leftBtnAction?: () => void;
   rightBtnText?: string;
