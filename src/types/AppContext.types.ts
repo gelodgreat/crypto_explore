@@ -8,4 +8,5 @@ export interface AppContext {
   openConnectModal: boolean;
   openModal: () => void;
   setOpenConnectModal: Dispatch<SetStateAction<boolean>>;
+  nepBUSDVal: number;
 }

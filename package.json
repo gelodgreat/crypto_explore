@@ -11,10 +11,10 @@
   "dependencies": {
     "@headlessui/react": "^1.6.5",
     "@web3-react/core": "^6.1.9",
-    "@web3-react/metamask": "^8.0.0-beta.0",
+    "@web3-react/metamask": "^8.0.27-beta.0",
     "@web3-react/store": "^8.0.0-beta.0",
     "@web3-react/types": "^6.0.7",
-    "@web3-react/walletconnect": "^8.0.1-beta.0",
+    "axios": "^0.27.2",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",

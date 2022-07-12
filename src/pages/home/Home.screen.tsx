@@ -6,7 +6,6 @@ import { HomeProps } from './Home.props';
 
 const HomeScreen = (props: HomeProps) => {
   const value = useContext(AppContext);
-  console.log(value);
   return (
     <div>
       <Modal
